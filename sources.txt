@@ -50,7 +50,7 @@ deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main
 
 #### Tor: anonymity online - http://www.torproject.org/
 ## Run this command: gpg --keyserver subkeys.pgp.net --recv 886DDD89 && gpg --export --armor 886DDD89  | sudo apt-key add -
-# deb http://deb.torproject.org/torproject.org trusty main
+deb http://deb.torproject.org/torproject.org trusty main
 
 #### Ubuntu Tweak PPA - http://ubuntu-tweak.com/
 ## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0624A220
@@ -58,7 +58,7 @@ deb http://ppa.launchpad.net/tualatrix/ubuntu trusty main
 
 #### VirtualBox - http://www.virtualbox.org
 ## Run this command: wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
-# deb http://download.virtualbox.org/virtualbox/debian trusty contrib
+deb http://download.virtualbox.org/virtualbox/debian trusty contrib
 
 #### WebUpd8 PPA - http://www.webupd8.org/
 ## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4C9D234C
