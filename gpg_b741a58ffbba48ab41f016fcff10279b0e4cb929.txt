@@ -1,0 +1,10 @@
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 614C4B38
+wget -q https://dl-ssl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+#gpg --keyserver subkeys.pgp.net --recv 886DDD89 && gpg --export --armor 886DDD89  | sudo apt-key add -
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0624A220
+wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4C9D234C
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AF1CDFA9
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8844C542  
