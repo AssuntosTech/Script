@@ -1,5 +1,5 @@
 ### Ubuntu 14.04 Trust
-sudo cp -r sources_b741a58ffbba48ab41f016fcff10279b0e4cb929.txt /etc/apt/sources.list;
+sudo cp -r sources.txt /etc/apt/sources.list;
 sudo cp -r gpg.txt /etc/apt/gpg_keys.txt;
 sh /etc/apt/gpg_keys.txt;
 sudo nano /etc/apt/sources.list;
